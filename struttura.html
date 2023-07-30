@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="struttura di una pagina HTML" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Struttura di una pagina HTML</title>
+    <link rel="stylesheet" href="struttura.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400;1,9..40,700&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Struttura di un foglio HTML standard</h1>
+      </header>
+      <main>
+        <section>
+        
+        <div>
+          <div>
+            <p>
+              Il primo tag è: <br />
+              <img src="assets/doctype.png" /> <br />
+              E' un tag semantico che indica al browser di utilizzare lo standard HTML5 ovvero l'ultima versione
+              dell'HTML. Se manca questo tag la pagina verrà renderizzata ugualmente ma il browser potrà visualizzare
+              come vuole, si attiva quindi la quirks mode, ovvero nessuno standard rispettato e di conseguenza ogni
+              browser mostrarà la pagina in un modo diverso
+            </p>
+          </div>
+
+          <div>
+            <p>
+              Il secondo tag è: <br />
+              <img src="assets/html.png" /> <br />
+              E' il genitore di tutti gli altri tag. Si può anche specificare la lingua con l'attributo "lang";
+              solitamente troviamo "en" che sta per english
+            </p>
+          </div>
+        </div> 
+
+        
+        <div>
+            All'interno di html abbiamo altri 2 tag :  <pre> < head ></ head></pre> <pre> < body > </ body> </pre> 
+            <img src="./assets/head_body.png" /> <br/>
+           
+        </div> 
+
+        <div>
+            <p>
+              In <strong> head </strong>troviamo informazioni di configurazione della pagina (meta informazioni/ meta descrizioni). Sono elementi che servono
+               al browser per capire cosa fare o per i bot di Google che leggono la pagina.
+             <ul>
+                <li>
+                  <ol>
+                    Tag meta: <pre> < meta /> </pre>
+                    <br>
+                      Per specificare il set di caratteri utilizzato usiamo </br> <img src="./assets/meta_charset.png"/> <br>
+                      utf-8 è il set di caratteri che usiamo noi occidentali. Se vieni omesso potrebbero verificarsi
+                     delle incongruenze, ovvero le lettere accentate potrebbero essere renderizzare diversamente.
+                    </li>
+                    <li>
+                      Per  descrive il contenuto della pagina usiamo
+                      <img src="./assets/meta_description.png"> <br>
+                      In questo caso abbiamo scritto <pre> < meta name="description" content ="html explanation "</pre>
+                    </li>
+                    <li>
+                       Per avere una visione corretta del contenuto della pagina anche sui device più piccoli
+                      <img src="./assets/meta_viewport.png"> <br>
+                    </li>
+                    <li>
+                      Per collegare un file css esterno
+                      <img src="./assets/stylesheet.png"> <br>
+                    </li>
+                    <li>
+                      Infine abbiamo <br>
+                      <img src="./assets/title.png"> <br>
+                       che rappresenta il nome/titolo del documento. E' l'unico tag all'interno di head che è visibile agli utenti 
+                       <br> <img src="./assets/tab_bar.png"> <br>
+                       e utile perchè viene letto dai bot per capire di cosa tratta la pagina. Di solito si usa il nome della pagina, il brand e qualche altra informazione in più.
+                       Se abbiamo bisogno poi di scrivere qualcosa in più lo scriviamo nel content del tag  meta name="description"
+
+                    </li>
+                   </ol>
+                </li>
+             </ul> 
+             Il <strong>body  </strong>contiene invece tutta la parte visibile della pagina, ovvero ciò che visualizzano gli utenti, dunque il contenuto della pagina.
+             Troviamo quindi testi ed elementi multimediali
+           </p>
+
+        </div>
+        
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
