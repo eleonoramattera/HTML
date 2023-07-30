@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400;1,9..40,700&display=swap");
+
+body,
+html {
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.6em;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: #ff987f;
+}
+h2 {
+  color: #ff9277;
+}
+main div {
+  position: relative;
+}
+
+main section:first-child {
+  text-align: justify;
+  padding: 20px;
+  padding-right: 60em;
+  border-radius: 20px;
+  background-color: #ffc67f;
+}
+
+main section:nth-child(2) {
+  position: absolute;
+  top: 9em;
+  left: 53em;
+  justify-content: end;
+  text-align: justify;
+  padding: 20px;
+  border-radius: 20px;
+
+  background-color: rgb(255 245 127 / 54%);
+}
+
+main section:nth-child(3) {
+  width: 45em;
+  padding-left: 2em;
+  text-align: justify;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 4em;
+  background-color: #ffe07f;
+}
+
+main section:nth-child(4) {
+  width: 65em;
+  margin: auto;
+  text-align: justify;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 4em;
+  background-color: #ffcc7f;
+}
+
+main section:nth-child(5) {
+  width: 40em;
+
+  text-align: justify;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 4em;
+  background-color: #ffe47f;
+}
+
+main section:nth-child(5) div {
+  width: 30em;
+  margin: auto;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #fce594;
+}
+
+main section:nth-child(6) {
+  margin-top: 4em;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #fce594;
+}
+
+main section:nth-child(6) h3 {
+  text-align: center;
+}

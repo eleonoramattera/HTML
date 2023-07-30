@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="html introduction" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./introduzione.css" />
+    <title>HTML</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400;1,9..40,700&display=swap");
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <header>
+        <h1>HTML</h1>
+        <h2 id="typewriter"></h2>
+      </header>
+
+      <main>
+        <div>
+         <section>
+            
+          <p>
+            HTML o HyperText Markup Language, è il linguaggio di markup utilizzato per creare e formattare pagine web. È
+            uno degli elementi fondamentali della creazione di siti web e fornisce una struttura base per definire il
+            contenuto, il layout e gli elementi interattivi di una pagina web. HTML è un linguaggio di markup semplice
+            da apprendere e offre una struttura flessibile per la creazione di pagine web. Tuttavia, da solo, HTML
+            definisce solo la struttura e il contenuto della pagina; per controllarne l'aspetto, è necessario utilizzare
+            CSS (Cascading Style Sheets) mentre per rendere possibile maggiore interattività viene utilizzato
+            Javascript<br />
+            🅒🅢🅢 permette di applicare stili e layout per rendere la pagina web più accattivante e interattiva <br />
+            🅙🅢 rende le pagine web dinamiche. <br />
+            In combinazione con CSS e JavaScript, HTML costituisce la base della creazione di siti web moderni e
+            interattivi. Quando una pagina HTML viene visualizzata da un browser, questo interpreta il codice HTML e
+            presenta il contenuto al visitatore in base alle specifiche del codice e degli stili definiti.
+          </p>
+       
+         </section>
+
+         <section>
+            <h3>Come scrivere del codice HTML? </h3>
+            <p>
+                L' HTML Funziona attraverso <strong> un sistema di "etichette" </strong> (o <strong>"tag"</strong>) che indicano al browser web come visualizzare il contenuto della pagina. 
+                Ogni etichetta HTML ha una sintassi specifica e può includere attributi per definire le caratteristiche aggiuntive dell'elemento.
+                I tag solitamente vengono scritti in <bold> minuscolo</bold> (per il browser non fa differenza ma per convenzione si preferisce usare le lettere minuscole)
+                <br>
+                Come si crea un tag❓ <br>
+                I tag vengono scritti tra parentesi uncinate   ❮ ❯ che delimitano <strong >un'area semantica </strong>all'interno della quale possiamo inserire del contenuto
+                <ul>
+                    <li>
+                        ❮ ❯  ➡️ tag di apertura 
+                    </li>
+                    <li>
+                        ❮╱❯  ➡️ tag di chiusura
+                    </li>
+                </ul> 
+                Esempio  ❮ tag❯ ❮╱tag❯  <br>
+                🇳.🇧. <sub> il tag  utilizzato non ha alcun significato. Serve solo come esempio </sub> <br> <br>
+            
+        
+                Un tag può avere anche un <strong>attributo </strong>il cui scopo è aggiungere informazioni in più, e può avere un risvolto visivo o semplicemente strutturale.
+                Alcuni tag hanno attributi obbligatori e altri facoltativi
+                Esempio ➡️  ❮ tag attr="" attr2="" ❯  ❮╱tag❯ <br>
+                In sintesi: <br>
+                -<strong>TAG</strong>: definisce  quale elemento stiamo creando, <br>
+                -<strong>ATTRIBUTO</strong>: definisce caratteristiche in più <br>
+                ⏬
+                Esempi: <br>
+                -il tag ❮a❯ (utilizzato per i collegamenti ipertestuali) ha come attibuto obbligatorio <i>href</i>; <br>
+                -il tag ❮ img❯ (utlizzato per le immagini)  ha come attributo obbligatorio <i>src</i> mentre come facoltativi potremmo utilizzare altezza e larghezza (heigth e width) senza dover ricorrere al css
+                <br> <br>
+                 E' importante ricordare che ci sono alcuni <strong>tag autconlusivi </strong>noti anche come tag vuoti o singoli, ovvero sono tag HTML che non hanno un tag di chiusura corrispondente. 
+                 Vengono utilizzati per inserire elementi o attributi specifici nella pagina web senza includere del contenuto interno. <br>
+                 Esempi: 
+               <ul>
+                 <li>
+                ❮ br /❯ ➡️ Crea un'interruzione di riga, andando a capo e spostando il testo successivo su una nuova riga
+                </li>
+                <li>
+                ❮ hr /❯ ➡️ Crea una linea orizzontale.
+                </li>
+                 <li>
+                ❮img/❯  ➡️ Inserisce un'immagine nella pagina web.
+                 </li>
+                 <li>
+                ❮input/❯  ➡️  Crea un campo di input per la ricezione di dati dall'utente. Ad esempio: ❮input type="text" name="nome"/❯.
+                </li>
+                 <li>
+                ❮link/❯ ➡️ Utilizzato nell'head della pagina, collega un documento esterno come un foglio di stile CSS. Ad esempio:  ❮link rel="stylesheet" href="stile.css" /❯.
+                  </li>
+        
+                </ul>
+        
+            </p>
+         </section>
+         
+         <section>
+            <h3>Annidamento dei tag </h3>
+
+            <p>
+            L'annidamento dei tag è un concetto fondamentale nel linguaggio di markup come HTML. 
+            Esso si riferisce alla pratica di inserire un tag all'interno di un altro tag, creando così una struttura gerarchica a livelli multipli.
+            Nel linguaggio di markup, i tag sono utilizzati per definire e formattare il contenuto della pagina web o del documento.  
+            Quando si annidano i tag, si crea una struttura organizzata e gerarchica in cui i tag interni sono contenuti all'interno dei tag esterni. 
+            Il tag esterno viene chiamato "genitore" e i tag interni "figli". <br> <br>
+            Esempio di annidamento dei tag HTML: <br> <br> 
+            <pre>
+              &lt;div&gt;
+               &lt;h1&gt;Titolo&lt;/h1&gt;
+               &lt;p&gt;Questo è un paragrafo &lt;strong&gt; con testo in grassetto &lt;strong/&gt;&lt;/p&gt;
+               &lt;ul&gt;
+                &lt;li&gt; Elemento 1 &lt;/li&gt; 
+                &lt;li&gt; Elemento 2 &lt;/li&gt; 
+               &lt;/ul&gt;   
+               &lt;/div&gt;
+            </pre>
+            ⬆️
+           Nell'esempio sopra, il tag ❮div❯ è il genitore e contiene i tag ❮h1❯ , ❮p❯ , e ❮ul❯ come figli. Difatti ❮h1❯ , ❮p❯ , e ❮ul❯ sono fratelli, tutti figli del tag ❮div❯
+           A loro volta, il tag ❮ul❯  contiene i tag ❮li❯ come figli. <br>
+
+L'annidamento dei tag è importante perché ci permette di organizzare e strutturare il contenuto in modo gerarchico e coerente. 
+Inoltre, ci consente di applicare stili e formattazione in modo selettivo a diverse parti del contenuto. 
+Senza l'annidamento dei tag, il linguaggio di markup perderebbe gran parte della sua potenza e flessibilità.
+Inoltre l'annidamento è utile per il CSS perchè alcune proprietà possono essere ereditate da padre a figlio (grandezza del testo), impedendo la ripetizione di codice
+<br>
+E' altresì importante  <strong>l'apertura e la chiusura speculare </strong> dei tag ovvero  questi devono essere aprerti e chiusi correttamente in modo bilanciato e simmetrico  per creare una struttura HTML corretta.
+<br> Esempio: <br>
+<pre>
+    &lt;div&gt;
+      &lt;p&gt;Questo è un paragrafo all'interno di un div &lt;/p&gt;
+    &lt;/div&gt;
+</pre>
+⬇️
+In questo esempio, abbiamo aperto il tag ❮div❯ e poi chiuso il tag ❮/div❯, e allo stesso modo il tag ❮p❯ è stato aperto e chiuso con ❮/p❯. 
+Questo crea una struttura bilanciata e speculare del codice HTML. <br>
+Se i tag non vengono chiusi correttamente o se ci sono errori di apertura/chiusura non bilanciati, il browser potrebbe interpretare il codice in modo errato e il layout della pagina potrebbe essere compromesso.
+<br>Esempio di apertura e chiusura speculare errata: <br>
+<pre>
+    &lt;div&gt;
+      &lt;p&gt;Questo è un paragrafo all'interno di un div 
+    &lt;/p&gt;
+</pre>
+⬇️
+In questo caso, il tag ❮p❯ è stato aperto, ma la chiusura con ❮/p❯  si trovasu una riga separata, 
+creando una situazione di apertura e chiusura non bilanciata. 
+Questo può causare problemi nell'interpretazione del codice HTML da parte del browser e potrebbe comportare un rendering incoerente o errato
+ della pagina
+</p>
+         </section>
+         
+         <section>
+            <h3>Indentatura</h3>
+<p> 
+L'indentatura è una pratica di formattazione del codice che consiste nell'aggiungere spazi o tabulazioni all'inizio delle righe di codice
+per visualizzarle in modo ordinato e strutturato. L'indentatura viene utilizzata principalmente per rendere il codice più leggibile e facilmente
+comprensibile sia per i programmatori che per chi legge il codice.<br>
+L'indentatura è particolarmente importante sia nei linguaggi di programmazione che nei linguaggi di markup  
+dove la struttura gerarchica del codice è essenziale per la comprensione della logica e della struttura del documento.<br>
+Nel caso dell'HTML l'indentatura viene utilizzata per mostrare la struttura dei tag annidati e facilitare la lettura del codice.
+<br> Esempio di come il codice HTML può essere indentato: <br>
+<ul>
+  <li>
+      Senza indentatura: <br>
+     <pre>
+         &lt;div&gt; &lt;p&gtQuesto è un paragrafo all'interno di un div.&lt;/p&gt;&lt;ul&gt;&lt;li&gt; Elemento 1 &lt;/li&gt;&lt;li&gt; Elemento 2 &lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;
+    </pre>
+  </li>
+</ul>
+<ul>
+    <li>
+        Con indentatura:
+        <pre>
+            &lt;div&gt;
+              &lt;h1&gt;Titolo&lt;/h1&gt;
+              &lt;p&gt;Questo è un paragrafo &all'interno di un div&lt;/p&gt;
+              &lt;ul&gt;
+                 &lt;li&gt; Elemento 1 &lt;/li&gt; 
+                 &lt;li&gt; Elemento 2 &lt;/li&gt; 
+              &lt;/ul&gt;   
+            &lt;/div&gt;
+          </pre>
+    </li>
+</ul>
+<br>
+➡️ Con l'indentatura il codice diventa più leggibile e facile da seguire, mostrando chiaramente la struttura gerarchica dei tag. 
+I blocchi di codice vengono spostati verso destra in modo che siano allineati visivamente con i loro genitori o elementi contenitori.
+<br><br>
+🇳.🇧. HTML non considera spaziature e rientri a capo: quando scrivo del codice HTML nel mio editor potrei affiancare anche tutti i tag su una linea, 
+(cosa che rende difficile capire la struttura della pagina e quindi è sconsigliato), ma per il browser questo non è importante poichè riesce lo stesso
+ad interpretare il codice e a renderizzarlo. <br> <br>
+E' inoltre importante ricodare che HTML è linguaggio case insensitive (non sensibile) ovvero ignora le maiuscole e le minuscole.
+ alrtri linguaggi come JS è importate la diff tra maiuscole e minuscole
+</p>
+         </section>
+
+         <section>
+            <h3>Commenti</h3>
+<p>
+In HTML, i commenti sono porzioni di testo inserite nel codice sorgente che vengono ignorate dal browser e dunque non vengono renderizzate e visualizzate
+nella pagina web. I commenti sono utilizzati per aggiungere note o annotazioni all'interno del codice, fornire spiegazioni o istruzioni per i programmatori
+o per disabilitare temporaneamente parti del codice senza doverle eliminare completamente.
+<br>
+Come scrivere un commento in HTML ❓<br>
+<pre> < ! -- Questo è un commento singola riga -- >  </pre>
+<pre>  < ! -- 
+    Questo è un commento
+    su più righe.
+  -- >
+</pre>
+</p>
+<div>
+
+ <strong>Finalità dei commenti:</strong> <br>
+<ol>
+    <li>
+        I commenti aiutano a descrivere parti del codice in modo chiaro e dettagliato, facilitando la comprensione per i programmatori 
+        che leggono o lavorano con il codice e quindi semplificano lo sviluppo collaborativo poichè  aiutano i membri del team a comunicare
+         tra loro e a fornire istruzioni o informazioni importanti all'interno del codice condiviso.
+
+    </li>
+    <li>
+        I commenti possono essere utilizzati per "commentare" temporaneamente parti di codice durante il processo di debugging o testing, 
+        senza doverle eliminare. In questo modo, è possibile disabilitare rapidamente parti di codice per individuare e risolvere eventuali errori.
+    </li>
+    <li>
+         Grazie ai  commenti possono essere utilizzati per tenere traccia delle modifiche apportate al codice e per fornire informazioni sulle revisioni 
+         o sullo sviluppo del progetto.
+    </li>
+</ol>
+</div>
+
+
+         </section>
+
+         <section>
+            
+<h3>Perchè i tag sono così importanti?</h3>
+<p>
+       Riconoscere i tag HTML ed usarli correttamente è importante per diverse ragioni, una delle quali è  <strong> l'indicizzazione </strong>da parte dei motori di ricerca come Google. 
+       I motori di ricerca utilizzano i tag HTML per comprendere e indicizzare il contenuto delle pagine web, consentendo agli utenti di trovare il contenuto rilevante quando effettuano una ricerca.
+   
+      Ecco alcuni motivi per cui i tag HTML corretti sono importanti per l'indicizzazione dei motori di ricerca come Google:
+
+      <ol>
+         <li>
+            <ul>
+                Indicizzazione del contenuto: 
+              <li>I motori di ricerca scansionano il contenuto delle pagine web utilizzando i tag HTML per capire di cosa tratta una pagina. I tag come < h1 >, < p >,< a >, e altri aiutano a strutturare
+                il contenuto e indicare quale parte della pagina è il titolo, il paragrafo, i link e così via.</li> 
+            </ul>
+         </li>
+         <li>
+            <ul>
+                Parole chiave e SEO: 
+                <li>
+                    L'utilizzo adeguato di tag può influenzare la SEO (Search Engine Optimization) di una pagina. Ad esempio, includere parole chiave rilevanti nei tag di intestazione può contribuire 
+                    a indicare l'importanza di certi contenuti per i motori di ricerca.
+                </li>
+            </ul>
+         </li>
+         <li>
+            <ul>
+                Accessibilità:
+                <li>  I tag HTML ben formati e strutturati migliorano l'accessibilità del contenuto per gli utenti, 
+                    inclusi quelli con disabilità o che utilizzano tecnologie assistive. Questo è un aspetto importante 
+                    che anche i motori di ricerca considerano nel valutare la qualità di una pagina.</li>
+            </ul>
+         </li>
+         <li>
+            <ul>
+                Esperienza utente:
+                <li>
+                    Utilizzare i tag HTML correttamente aiuta a creare una migliore esperienza utente. 
+                    I visitatori possono facilmente comprendere la struttura della pagina e individuare il contenuto rilevante.
+                </li> 
+
+               
+            </ul>
+         </li>
+</ol>
+Per massimizzare l'indicizzazione dei motori di ricerca e migliorare la visibilità del tuo sito web, è importante utilizzare tag HTML significativi e pertinenti. Assicurati di utilizzare i tag adeguati per titoli, paragrafi, immagini, link e altri elementi del contenuto in modo che i motori di ricerca possano interpretare correttamente il tuo sito e presentarlo agli utenti nei risultati di ricerca.
+
+
+</p>
+         </section>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
