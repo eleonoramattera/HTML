@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400;1,9..40,700&display=swap");
+
+body,
+html {
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.6em;
+}
+
+pre {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  white-space-collapse: preserve-breaks;
+}
+
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: self-start;
+}
+
+main section div {
+  margin: 1.2em;
+  border-radius: 10px;
+  padding: 10px;
+  justify-self: start;
+}
+
+main section div:first-child {
+  width: 25%;
+  background-color: rgb(255, 218, 161);
+}
+
+main section div:nth-child(2) {
+  width: 30%;
+  background-color: rgb(253, 234, 124);
+}
+
+main section div:nth-child(3) {
+  width: 30%;
+  background-color: rgb(245, 191, 129);
+}
+
+main section div:nth-child(4) {
+  width: 40%;
+  background-color: rgb(245, 191, 129);
+  position: absolute;
+  top: 30em;
+  margin-bottom: 16em;
+}
+
+main section div:nth-child(5) {
+  width: 50%;
+  background-color: rgb(243, 228, 141);
+  margin-top: 16em;
+}
+
+main section div:nth-child(6) {
+  width: 40%;
+  background-color: rgb(243, 203, 91);
+}
+
+main section div:nth-child(7) {
+  width: 40%;
+  background-color: rgb(248, 200, 138);
+}
+
+main section div:nth-child(8) {
+  width: 40%;
+  background-color: rgb(243, 172, 91);
+}

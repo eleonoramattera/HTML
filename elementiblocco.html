@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="html tag" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tag html</title>
+    <link rel="stylesheet" href="elementiblocco.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400;1,9..40,700&display=swap");
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div>
+          <h3>Tag di heading</h3>
+          <p>
+            Sono utilizzati per definire i livelli di titolo o intestazione all'interno di un documento. Questi tag
+            vanno dall'heading level 1 (&lt;h1&gt;) al heading level 6 (&lt;h6&gt;), dove &lt;h1&gt; è il titolo più
+            importante e &lt;h6&gt; è il meno importante.
+            <code>
+              &lt;h1&gt; &lt;/h1&gt; <br />
+              &lt;h2&gt; &lt;/h2&gt; <br />
+              &lt;h3&gt; &lt;/h3&gt; <br />
+              &lt;h4&gt; &lt;/h4&gt; <br />
+              &lt;h5&gt; &lt;/h5&gt; <br />
+              &lt;h6&gt; &lt;/h6&gt; <br />
+            </code>
+          </p>
+        </div>
+        <div>
+          <h3>Paragrafi</h3>
+          <p>
+            Questo tag è fondamentale per strutturare e organizzare il contenuto di una pagina web in blocchi di testo
+            separati. Crea un nuovo blocco di testo inserendo un margine prima e dopo il testo, creando un aspetto
+            distintivo per ogni paragrafo. È importante utilizzare il tag correttamente all'interno della struttura del
+            tuo documento HTML, in modo da rendere il contenuto ben organizzato. Un documento HTML ben strutturato e con
+            l'uso corretto dei tag di paragrafo può migliorare l'indicizzazione da parte dei motori di ricerca e
+            l'esperienza di lettura da parte degli utenti. <br />
+            <code>
+              &lt;p&gt;questo è un paragrafo&lt;/p&gt; <br />
+              &lt;p&gt;questo è un altro paragrafo&lt;/p&gt;
+            </code>
+          </p>
+        </div>
+        <div>
+          <h3>Contenitore generico / division</h3>
+          <p>
+            E' un elemento di contenitore generico che viene utilizzato per raggruppare e organizzare altri elementi
+            HTML in blocchi distinti. La funzione principale è quindi suddividere il contenuto della pagina in diverse
+            parti o sezioni. Non ha alcun significato semantico specifico e non altera il significato o la struttura del
+            contenuto che contiene. Invece, viene utilizzato per scopi di layout e stile, consentendo agli sviluppatori
+            di raggruppare insieme elementi correlati o di creare contenuti strutturati. Ad esempio, prima dell'avvento
+            di HTML5 il div veniva usato in questo modo <code> &lt;div class="header"&gt; &lt;/div&gt;</code>
+            per creare un contenitore di intestazione <br>
+            <pre>
+              <code>
+                &lt;div&gt;
+                   &lt;p&gt;primo paragrafo del primo div &lt;/p&gt;
+                   &lt;p&gt;secondo paragrafo del primo div &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div&gt;
+                   &lt;p&gt;primo paragrafo del secondo div &lt;/p&gt;
+                   &lt;p&gt;secondo paragrafo del secondo div &lt;/p&gt;
+                &lt;/div&gt; 
+              </code>
+            </pre>
+          </p>
+        </div>
+        <div>
+            <h3>Citazioni</h3>
+            <p>
+                E' utilizzato per citare il contenuto di un altro autore o una fonte esterna all'interno 
+                di un documento. Questo tag contiene alcune proprietà css di default come  l'indentazione sui margini sinistro e destro, 
+                che lo distingue dal resto del testo.
+             Questa formattazione visiva aiuta a rendere chiaro che il contenuto è una citazione. <br>   
+                 <pre>   
+                    <code>
+                        &lt;blockquote&gt;
+                         La vera grandezza non consiste in ciò che hai, ma in ciò che sei.    
+                        &lt;/blockquote&gt;
+                    </code>
+                </pre>  
+            </p>
+        </div>
+        <div>
+            <h3>Indirizzo</h3>
+            <p>
+                La sua funzione principale è quella di indicare il contenuto come informazioni di contatto, come l'indirizzo, l'email, il numero di telefono o altre informazioni rilevanti.
+            <pre>
+                <code>
+                    <address>
+                        Nome Autore<br>
+                        Via del Colle, 1234<br>
+                        Città, CAP<br>
+                        Email: autore@example.com<br>
+                        Tel: +39 123 456789
+                      </address>
+                </code>
+            </pre>
+            </p>
+        </div>
+        <div>
+            <h3>Liste di definizioni</h3>
+            <p>
+            Le liste di definizioni in HTML sono create utilizzando il tag &lt;dl&gt;, che sta per "Description List" (lista di definizioni). 
+            Questo tipo di lista è utilizzato per presentare una serie di termini (definizioni) e le relative definizioni (descrizioni) in modo strutturato e semanticamente significativo.
+            All'interno del tag &lt;dl&gt;, utilizziamo i tag &lt;dt&gt;(Definition Term) per definire i termini (definizioni) 
+                e i tag &lt;dd&gt; (Definition Description) per fornire le descrizioni di ciascun termine.
+               
+                 <pre>
+                    <code>
+                       &lt;dl&gt;                      
+                          &lt;dt&gt; HTML &lt;/dt&gt;
+                          &lt;dd&gt;Linguaggio di markup utilizzato per creare pagine web. &lt;/dd&gt;
+                          
+                          &lt;dt&gt;CSS &lt;/dt&gt;
+                          &lt;dd&gt; Linguaggio utilizzato per lo stile delle pagine web. &lt;/dd&gt;
+                        &lt;/dl&gt; 
+                    </code>
+                </pre>
+                <br>
+                <br>
+                  Output:
+                  <dl>
+                    <dt>HTML</dt>
+                    <dd>Linguaggio di markup utilizzato per creare pagine web.</dd>
+                    <dt>CSS</dt>
+                    <dd>Linguaggio utilizzato per lo stile  delle pagine web. </dd>
+                  </dl>
+               
+           </p>
+        </div>
+        <div>
+            <h3>Liste ordinate</h3>
+            <p>
+                Le liste ordinate in HTML sono create utilizzando il tag &lt;ol&gt;, che sta per "Ordered List".
+                 Questo tag è utilizzato per creare elenchi numerati o elenchi ordinati, 
+                 in cui ogni elemento della lista è preceduto da un numero sequenziale.
+                 All'interno del tag &lt;ol&gt;, utilizziamo il tag &lt;li&gt; (List Item) per definire ogni elemento della lista. 
+                 Ogni &lt;li&gt; contiene il testo o il contenuto che vuoi mostrare nella lista. 
+                 L'elenco sarà numerato automaticamente dall'1 in poi,ma personalizzare l'aspetto delle liste ordinate  
+                 cambiarndo il tipo di numerazione (come numeri, lettere, numeri romani, ecc.) attraverso attributo type.
+                
+                    <pre>
+                        <code>
+                            &lt;ol&gt;
+                            &lt;li&gt; primo elemento &lt;/li&gt;
+                            &lt;li&gt;  secodno elemento&lt;/li&gt;
+                            &lt;/ol&gt;
+                        </code>
+                    </pre>
+                    Output:
+                         <ol>
+                            <li>primo elemento</li>
+                            <li> secondo elemento</li>
+                         </ol>
+                
+                
+                    <pre>
+                        <code>
+                            &lt;ol type="A"&gt; 
+                            &lt;li&gt; primo elemento &lt;/li&gt;
+                            &lt;li&gt;  secodno elemento&lt;/li&gt;
+                            &lt;/ol&gt;
+                        </code>
+                    </pre>
+                    Output:
+                    <ol type="A">
+                       <li>primo elemento</li>
+                       <li> secondo elemento</li>
+                    </ol>
+                
+            </p>
+        </div>
+       
+        <div>
+            <h3>Liste non ordinate</h3>
+            <p>
+                Le liste non ordinate in HTML sono create utilizzando il tag &lt;ul&gt;, che sta per "Unordered List" (lista non ordinata).
+                 Questo tag è utilizzato per creare elenchi puntati o elenchi non numerati, in cui ogni elemento della lista è preceduto 
+                 da un simbolo di puntino, pallino, o altro simbolo.
+                All'interno del tag  &lt;ul&gt;, utilizziamo il tag  &lt;li&gt;(List Item) per definire ogni elemento della lista. 
+                Ogni  &lt;li&gt; contiene il testo o il contenuto che vuoi mostrare nella lista. L'elenco sarà puntato automaticamente con il simbolo predefinito, 
+                di solito un puntino ma è possibile personalizzare l'aspetto delle liste non ordinateutilizzando CSS 
+            </p>
+            
+                <pre>
+                    <code>
+                        &lt;ul&gt;
+                        &lt;li&gt; primo elemento &lt;/li&gt;
+                        &lt;li&gt;  secodno elemento&lt;/li&gt;
+                        &lt;/ul&gt;
+                    </code>
+                </pre>
+                Output:
+                     <ul>
+                        <li>primo elemento</li>
+                        <li> secondo elemento</li>
+                     </ul>
+            
+                <pre>
+                    <code>
+                        &lt;ul style="list-style-type: square;"&gt;
+                        &lt;li&gt; primo elemento &lt;/li&gt;
+                        &lt;li&gt;  secodno elemento&lt;/li&gt;
+                        &lt;/ul&gt;
+                    </code>
+                </pre>
+                Output:
+                     <ul style="list-style-type: square;">
+                        <li>primo elemento</li>
+                        <li> secondo elemento</li>
+                     </ul>
+            
+        </div>
+        
+      </section>
+    </main>
+  </body>
+</html>
