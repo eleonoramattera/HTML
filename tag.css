@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400;1,9..40,700&display=swap");
+
+body,
+html {
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.6em;
+}
+
+h1 {
+  text-align: center;
+}
+
+main section p + div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+main section > p {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 2em;
+}
+main section p + div > div {
+  width: 40%;
+  padding: 10px;
+  border: 8px solid transparent;
+  border-radius: 10px;
+  margin-bottom: 2em;
+  text-align: justify;
+  /* animation: cambioColore 3s infinite;*/
+}
+
+/* @keyframes cambioColore {
+  0% {
+    border-color: salmon;
+  }
+  25% {
+    border-color: rgb(252, 160, 150);
+  }
+  50% {
+    border-color: rgb(248, 206, 201);
+  }
+  75% {
+    border-color: rgb(252, 160, 150);
+  }
+  100% {
+    border-color: salmon; 
+  }
+}
+ */
