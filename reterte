@@ -1,43 +1,19 @@
-
-    <h3>Struttura di un foglio HTML standard</h3>
-<p>
+<div>
+  Esempi:
   <ul>
    
-    <li>
-        All'interno di html abbiamo altri 2 tag :
-        <ol>
-            <li>
-          
-                ⬇️ In head troviamo informazioni di configurazione della pagina (meta informazioni/ meta descrizioni). Sono elementi che servono
-                al browser per capire cosa fare o per i bot di Google che leggono la pagina.
-                Un esempio di tag che troviamo qui è : <pre> < meta /> </pre>
-                Es: per specificare il set di caratteri utilizzato usiamo <pre> < meta charset="utf-8"></pre>
-                -utf-8 è il set di caratteri che usiamo noi occidentali. Se vieni omesso potrebbero verificarsi
-                delle incongruenze, ovvero le lettere accentate potrebbero essere renderizzare diversamente. <br>
-                Un altro tag che troviamo qui è: <pre> < meta name="description" content =" "</pre> che descrive il contenuto
-                della pagina all'interno dell'attributo content.<br>
-                In questo caso potremmo scrivere <pre> < meta name="description" content ="html explanation "</pre>
-                In più troviamo:
-                <pre> < meta name="viewport" content="width=device-width initial-scale=1"</pre>
-                Questo tag serve per i device più piccoli per avere una visione corretta del contenuto della pagina
-                <pre> < link rel="stylesheet" href="nomepercorsodelfilecss</pre>
-                Serve appunto per collegare un file css esterno
-                Sono tutti tag autoconclusivi 
-                <br>
-                 Un altro tag ancora che troviamo qui è <pre> < title> </ title> </pre>
-                 rappresenta il nome/titolo del documento. E' l'unico tag all'interno di head che è visibile agli utenti e utile perchè 
-                 letto dai bot per capire di cosa tratta la pagina. Di solito si usa il nome della pagina, il brand e qualche altra informazione in più.
-                Se abbiamo bisogno poi di scrivere qualcosa in più lo scriviamo nel content del tag meta
-                </li>
-            <li>
-                <pre> < body > </ body> </pre> 
-                ⬇️ In  body va tutta la parte visibile della pagina, ovvero ciò che visualizzano gli utenti, dunque il contenuto della pagina.
-                Troviamo quindi testi ed elementi multimediali
-            </li>
-
-        </ol>
+     
     </li>
-</ul>
-</p>
-</body>
-</html>
+    
+    
+    <li>
+      <code> &lt;img/&gt; </code>
+    </li>
+    <li>
+      <code> &lt;a&gt; </code>
+    </li>
+
+
+    </li>
+  </ul>
+</div>

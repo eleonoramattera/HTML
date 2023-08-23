@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementi inline</title>
+    <link rel="stylesheet" href="elementiinline.css">
+
+</head>
+<body>
+    <main>
+        <section>
+            <div>
+                <h3>span</h3>
+                <p>
+                    E' un elemento di testo generico utilizzato per applicare stili o effetti specifici a parti specifiche di un testo
+                    all'interno di un documento. non ha significato semantico proprio e non altera la struttura o il significato del
+                    contenuto. Serve principalmente come contenitore per applicare stili CSS o per manipolare parti specifiche del
+                    testo utilizzando JavaScript. <br>
+                    <pre>
+                      <code>  
+                        &lt;p&gt; 
+                          Questo è il &lt;span class="cliccabile"&gt; testo  cliccabile&lt;/span&gt; di un paragrafo
+                        &lt;/p&gt; 
+                      </code> 
+                </pre>
+                In questo caso a span è stato assegnata la classe "cliccabile" che attraverso css può cambiare stile
+                </p>
+            </div>
+            <div>
+                <h3>strong / b</h3>
+                <p>
+                    &lt;strong&gt; &lt;b&gt; si utilizzano per il evidenziare una parte di testo. Strong è stato introdotto con html5 ed è più sematico
+                 <code>
+                   &lt;p&gt; testo &lt;strong&gt; evidenziato &lt;/strong&gt; con strong e testo &lt;b&gt; evidenziato &lt;/b&gt; con b &lt;p&gt;
+                 </code>
+                </p>
+            </div>
+            <div>
+                <h3>em / i</h3>
+                <p>
+                    <code>&lt;em&gt; &lt;i&gt; </code> si utilizzano per inserire del testo in corsivo. Em è stato introdotto con
+                    html5 ed è più sematico
+                    <code>
+                        &lt;p&gt; testo &lt;em&gt; in corsivo &lt;/em&gt; con em e testo &lt;i&gt; in corsivo &lt;/i&gt; con i &lt;p&gt;
+                      </code>
+                </p>
+            </div>
+            <div>
+                <h3>ins / u</h3>
+                <p>
+                    <code> &lt;ins&gt; &lt;u&gt; </code>si utilizzano per scrivere del testo sottolineato. Ins è stato introdotto con
+                    html5 ed è più sematico
+                    <code>
+                        &lt;p&gt; testo &lt;ins&gt; sottolineato &lt;/ins&gt; con ins e testo &lt;u&gt; sottolineato &lt;/u&gt; con u &lt;p&gt;
+                    </code>
+                </p>
+            </div>
+            <div>
+                <h3>del</h3>
+                <p>
+                    <code> &lt;del&gt; </code> viene utilizzato per definire il testo eliminato o cancellato all'interno di un documento. 
+                    <code>
+                        &lt;p&gt; questo è un paragrafo con &lt;del&gt; del testo barrato&lt;/del&gt;
+                    </code>
+                </p>
+            </div>
+            <div>
+                <h3>q / cite</h3>
+                <p>
+                     <code>&lt;q&gt; </code>  è utilizzato per indicare una citazione breve all'interno di un documento. 
+                    Questo tag è utile per evidenziare una citazione o una frase di un'altra fonte e renderla. Nel browser viene renderizzato con delle << >>. <br>
+                    <code>&lt;cite&gt; </code>  viene utilizzato per indicare una citazione o il titolo di una fonte, come libri, articoli, film o opere artistiche, 
+                    all'interno di un documento. Questo tag è utilizzato per mettere in evidenza e distinguere il testo che rappresenta il titolo o la fonte da altre parti del contenuto.
+                    è generalmente utilizzato per rappresentare titoli di opere o fonti e dovrebbe essere utilizzato in modo coerente per garantire una corretta struttura semantica del documento. Può essere utile in contesti come articoli 
+                    accademici, blog, siti web di recensioni o qualsiasi altro caso in cui sia necessario citare fonti o titoli di opere.
+                    Tuttavia, è importante notare che il tag <cite> non aggiunge alcun tipo di stile visivo di default. 
+
+                </p>
+            </div>
+            <div>
+                <h3>br</h3>
+                <p>
+                    è utilizzato per inserire un'interruzione di riga (line break) all'interno di un paragrafo o di un blocco di testo.
+                     Questo tag non ha alcun contenuto e non richiede una chiusura, poiché è un elemento vuoto.
+                </p>
+            </div>
+            <div>
+                <h3> hr</h3>
+                <p>
+                    è utilizzato per inserire un orizzontale (horizontal rule) all'interno di un documento. 
+                    Questo tag crea una linea orizzontale che può essere utilizzata 
+                    per separare visivamente il contenuto della pagina, come se stesse dividendo due 
+                    sezioni o argomenti distinti.
+                </p>
+            </div>
+            <div>
+                <h3>pre</h3>
+                <p>
+                    è utilizzato per rappresentare il testo preformattato, mantenendo l'aspetto originale del testo, incluso spazi, interruzioni di riga e spaziature multiple. Questo tag è utile quando si vuole 
+                    visualizzare blocchi di testo che richiedono una formattazione specifica o che devono mantenere la 
+                    loro struttura esatta.
+                    Il tag &lt;pre&gt; è particolarmente utile per visualizzare blocchi di codice, output di programmazione, poesie formattate, tabelle ASCII e 
+                    altri tipi di testo che richiedono una disposizione specifica. Può anche essere utilizzato per mantenere il layout di testo con spaziature regolari, come ad esempio nel caso di testo formattato con font monospazio come Courier New.
+                    Tuttavia, l'uso eccessivo del tag &lt;pre&gt; può rendere il testo difficile da leggere su dispositivi mobili o schermi di dimensioni ridotte. Pertanto, è sempre bene utilizzarlo con cautela e solo quando è necessario
+                </p>
+            </div>
+            <div>
+                <h3>code</h3>
+                <p>
+                    viene utilizzato per rappresentare del testo che rappresenta codice o programmazione. Questo tag è utile per mostrare porzioni di codice all'interno di un documento e può essere 
+                    utilizzato per formattare il testo con un font monospazio, rendendolo facilmente distinguibile dal resto del contenuto.
+                    Il tag  &lt;code&gt;  non altera il testo semanticamente, ma fornisce una formattazione visiva che lo distingue dal resto del contenuto. 
+                    Questo rende il codice più facilmente leggibile e identificabile all'interno della pagina.
+                </p>
+            </div>
+            <div>
+                <h3>abbr</h3>
+                <p>
+                    viene utilizzato per definire un'abbreviazione o un acronimo all'interno di un documento. Questo tag è utile per specificare 
+                    il significato completo di una sigla o abbreviazione, consentendo ai lettori di comprendere meglio il testo.
+                    <code>
+                        <p> L' &lt;abbr  title="World Wide Web" &gt;WWW &lt;/abbr&gt; è una parte essenziale di Internet.</p>
+
+                    </code>
+                    Il tag &lt;abbr&gt; è utile per migliorare l'accessibilità e l'usabilità del contenuto, soprattutto quando si utilizzano sigle o abbreviazioni meno conosciute. I 
+                    lettori potranno facilmente identificare il significato delle abbreviazioni grazie all'informazione fornita nel tooltip.
+                </p>
+            </div>
+            <div>
+                <h3>sup /sub</h3>
+                <p>
+                    sono utilizzati per creare testo in apice (subscript) e testo in pedice (superscript), rispettivamente. Questi tag consentono di posizionare il testo sopra o 
+                    sotto la linea di base normale, creando l'effetto di testo più piccolo e spostato rispetto al resto del testo circostante.
+                    <code>
+                        <p>H<sub>2</sub>O è la formula dell'acqua, mentre 10<sup>2</sup> rappresenta 10 elevato alla seconda potenza.</p>
+
+                    </code>
+                    L'uso di  &lt;sub&gt;  e  &lt;sup&gt;  è comune in contesti come formule chimiche, espressioni matematiche, notazioni scientifiche e in alcune notazioni musicali.
+                         Possono anche essere utilizzati per formattare correttamente le note a piè pagina o i riferimenti bibliografici
+                </p>
+            </div>
+            <div>
+                <h3>mark</h3>
+                <p>
+                    viene utilizzato per evidenziare parti di testo all'interno di un documento. Questo tag consente di applicare un colore di sfondo o una diversa
+                     formattazione visiva al testo racchiuso, attirando l'attenzione dell'utente su quella parte specifica del contenuto.
+                     è utile quando si vuole mettere in risalto parti di testo per scopi di riferimento, evidenziazione o per facilitare la lettura. 
+                </p>
+            </div>
+        </section>
+</body>
+</html>

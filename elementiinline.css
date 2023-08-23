@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400;1,9..40,700&display=swap");
+
+body,
+html {
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.6em;
+}
+
+pre {
+  text-wrap: wrap;
+  white-space-collapse: preserve-breaks;
+}
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: self-start;
+}
+
+main section div {
+  margin: 1.2em;
+  border-radius: 10px;
+  padding: 10px;
+  justify-self: start;
+  box-sizing: border-box;
+}
+
+main section div:first-child {
+  width: 25%;
+  background-color: #c89af8;
+}
+
+main section div:nth-child(2) {
+  width: 30%;
+  background-color: #d5b1fc;
+}
+
+main section div:nth-child(3) {
+  width: 30%;
+  background-color: #b58ae2;
+}
+
+main section div:nth-child(4) {
+  width: 40%;
+  background-color: #906cb6;
+  position: absolute;
+  top: 18em;
+  left: 38em;
+  margin-bottom: 16em;
+}
+
+main section div:nth-child(5) {
+  width: 50%;
+  background-color: #b779fa;
+}
+
+main section div:nth-child(6) {
+  width: 40%;
+  background-color: #be9ce2;
+}
+
+main section div:nth-child(7) {
+  width: 26%;
+  background-color: #a458f7;
+}
+
+main section div:nth-child(8) {
+  width: 26%;
+  margin-right: 8em;
+  background-color: #d7c8e7;
+}
+
+main section div:nth-child(9) {
+  width: 44%;
+  background-color: #ba81f7;
+}
+
+main section div:nth-child(10) {
+  width: 44%;
+  background-color: #844ebe;
+}
+
+main section div:nth-child(11) {
+  width: 74%;
+  background-color: #844ebe;
+  margin-left: 23em;
+}
+
+main section div:nth-child(12) {
+  width: 40%;
+  background-color: #bca6d4;
+}
+
+main section div:nth-child(13) {
+  width: 40%;
+  background-color: rgb(165, 84, 252);
+}
