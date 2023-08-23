@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tag html</title>
     <link rel="stylesheet" href="tag.css" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400;1,9..40,700&display=swap");
-    </style>
   </head>
   <body>
     <div class="container">
@@ -47,11 +44,29 @@
               </p>
             </div>
           </div>
-          <!-- Elementi inline-block:
-Gli elementi inline-block combinano le caratteristiche degli elementi inline e degli elementi di blocco. Come gli elementi inline, occupano solo lo spazio necessario per contenere il loro contenuto e possono essere posizionati uno accanto all'altro all'interno di un elemento di blocco. Ma, a differenza degli elementi inline, accettano larghezza, altezza e margini verticali, come gli elementi di blocco. Gli elementi inline-block possono essere utili per creare layout più complessi in cui gli elementi si allineano orizzontalmente senza andare a capo.
-Esempio: -->
+          <div>
+            <div>
+              <p>Tocca a te!</p>
+              <p>Prova a scrivere del codice html e premi INVIO per visualizzare il risultato</p>
+              <textarea id="text" rows="5" cols="50" onkeyup="html()"></textarea>
+            </div>
+            <div>
+              <ion-icon name="caret-forward-outline"></ion-icon>
+            </div>
+            <div>
+              Output:
+              <div id="output"></div>
+            </div>
+          </div>
         </section>
       </main>
     </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="tag.js"></script>
   </body>
 </html>
+
+<!-- Elementi inline-block:
+Gli elementi inline-block combinano le caratteristiche degli elementi inline e degli elementi di blocco. Come gli elementi inline, occupano solo lo spazio necessario per contenere il loro contenuto e possono essere posizionati uno accanto all'altro all'interno di un elemento di blocco. Ma, a differenza degli elementi inline, accettano larghezza, altezza e margini verticali, come gli elementi di blocco. Gli elementi inline-block possono essere utili per creare layout più complessi in cui gli elementi si allineano orizzontalmente senza andare a capo.
+Esempio: -->
