@@ -1,0 +1,15 @@
+main section div {
+  display: flex;
+}
+
+main section p + div + div div:nth-child(2) {
+  font-size: 4em;
+  display: flex;
+  align-items: center;
+  margin-left: 0.6em;
+}
+
+main section p + div + div div:nth-child(3) {
+  margin-left: 2em;
+  margin-top: 1em;
+}
