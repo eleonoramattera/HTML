@@ -10,7 +10,7 @@ h1 {
   text-align: center;
 }
 
-main section > p {
+main section > div:first-child {
   width: 40%;
   margin: auto;
   text-align: center;
@@ -20,58 +20,41 @@ main section > p {
   padding: 10px;
 }
 
-main section > p + div {
+main section > div:nth-child(2) {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
-main section p + div > div:first-child {
-  width: 40%;
+main section > div:nth-child(2) div,
+main section > div:nth-child(3) {
   padding: 10px;
   border: 8px solid transparent;
   border-radius: 10px;
   margin-bottom: 2em;
   text-align: justify;
+  width: 40%;
+}
+
+main section > div:nth-child(2) > div:first-child {
   background-color: #f5b2c4;
 }
 
-main section p + div > div:nth-child(2) {
-  width: 40%;
-  padding: 10px;
-  border: 8px solid transparent;
-  border-radius: 10px;
-  margin-bottom: 2em;
-  text-align: justify;
+main section > div:nth-child(2) > div:nth-child(2) {
   background-color: #d2b0f7;
 }
 
-main section p + div > div:nth-child(3) {
-  width: 40%;
-  padding: 10px;
-  border: 8px solid transparent;
-  border-radius: 10px;
-  margin-bottom: 2em;
-  margin: auto;
-  text-align: justify;
+main section > div:nth-child(2) > div:nth-child(3) {
   background-color: #faf769;
 }
 
-main section p + div + div {
-  display: flex;
-  width: 90%;
-  margin: auto;
-  margin-bottom: 2em;
-}
-
-main section p + div + div div:nth-child(2) {
-  font-size: 4em;
-  display: flex;
-  align-items: center;
-  margin-left: 0.6em;
-}
-
-main section p + div + div div:nth-child(3) {
+main section > div:nth-child(3) {
   margin-left: 2em;
-  margin-top: 1em;
+  margin-top: 4em;
+  background-color: #81f881;
+  width: 20%;
+}
+
+a {
+  color: black;
 }
