@@ -29,22 +29,22 @@ main section div {
 
 main section div:first-child {
   width: 25%;
-  background-color: rgb(255, 218, 161);
+  background-color: #f5b2c4;
 }
 
 main section div:nth-child(2) {
   width: 30%;
-  background-color: rgb(253, 234, 124);
+  background-color: #f594ae;
 }
 
 main section div:nth-child(3) {
   width: 30%;
-  background-color: rgb(245, 191, 129);
+  background-color: #f5d3dc;
 }
 
 main section div:nth-child(4) {
   width: 40%;
-  background-color: rgb(245, 191, 129);
+  background-color: #f589a6;
   position: absolute;
   top: 30em;
   margin-bottom: 16em;
@@ -52,21 +52,21 @@ main section div:nth-child(4) {
 
 main section div:nth-child(5) {
   width: 50%;
-  background-color: rgb(243, 228, 141);
+  background-color: #f3bac9;
   margin-top: 16em;
 }
 
 main section div:nth-child(6) {
   width: 40%;
-  background-color: rgb(243, 203, 91);
+  background-color: #fa7497;
 }
 
 main section div:nth-child(7) {
   width: 40%;
-  background-color: rgb(248, 200, 138);
+  background-color: #eb72a4;
 }
 
 main section div:nth-child(8) {
   width: 40%;
-  background-color: rgb(243, 172, 91);
+  background-color: #f5a2c4;
 }
