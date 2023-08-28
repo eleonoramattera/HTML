@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400;1,9..40,700&display=swap");
+
+body,
+html {
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.6em;
+}
+
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: self-start;
+}
+
+main section div {
+  margin: 1.2em;
+  border-radius: 10px;
+  padding: 10px;
+  justify-self: start;
+  box-sizing: border-box;
+}
+
+main section > p {
+  width: 60%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fffb20;
+  margin-bottom: 2em;
+}
+
+main section > p + div {
+  width: 45%;
+  background-color: #faf769;
+}
+
+main section > p + div + div {
+  width: 45%;
+  background-color: #f5f39a;
+}
+
+main section > p + div + div + div {
+  width: 35%;
+  background-color: #eeec8a;
+}
+main section > p + div + div + div + div {
+  width: 20%;
+  background-color: #e6e336;
+}
+
+main section > p + div + div + div + div + div {
+  width: 40%;
+  margin-left: 20em;
+  background-color: #fffd8f;
+}
+
+main section > p + div + div + div + div + div + div {
+  width: 30%;
+  background-color: #f1ef50;
+}
