@@ -25,6 +25,7 @@ main section div {
   border-radius: 10px;
   padding: 10px;
   justify-self: start;
+  box-sizing: border-box;
 }
 
 main section div:first-child {
