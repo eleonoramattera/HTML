@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400;1,9..40,700&display=swap");
+
+body,
+html,
+button {
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.6em;
+}
+
+main {
+  position: relative;
+}
+
+main button {
+  padding: 1em;
+  border-radius: 10px;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+main button:first-child {
+  background-color: #ff987f;
+  border: none;
+  position: absolute;
+  top: 9em;
+  left: 4em;
+}
+
+main button:nth-child(2) {
+  background-color: #4e97cd;
+  border: none;
+  position: absolute;
+  top: 12em;
+  left: 20em;
+}
+
+main button:nth-child(3) {
+  background-color: #a0f1fc;
+  border: none;
+  position: absolute;
+  top: 5em;
+  right: 20em;
+}
+
+main button:nth-child(4) {
+  background-color: #f5b2c4;
+  border: none;
+  position: absolute;
+  top: 25em;
+  left: 10em;
+}
+
+main button:nth-child(5) {
+  background-color: #d2b0f7;
+  border: none;
+  position: absolute;
+  top: 16em;
+  right: 16em;
+}
+
+main button:nth-child(6) {
+  background-color: #f3fca0;
+  border: none;
+  position: absolute;
+  top: 29em;
+  right: 10em;
+}
+
+main button:nth-child(7) {
+  background-color: #81f881;
+  border: none;
+  position: absolute;
+  top: 22em;
+  right: 30em;
+}
